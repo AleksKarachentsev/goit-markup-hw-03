@@ -1,0 +1,343 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #ffffff;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* Індекс HTML */
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  margin: 0;
+  padding: 0;
+}
+.page-header {
+  border: 1px solid #ececec;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.menu-nav {
+  display: flex;
+  align-items: center;
+}
+.conteiner {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.site-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+.part-of-logo {
+  color: #2196f3;
+}
+.site-nav {
+  display: flex;
+  margin-left: 92px;
+}
+.site-auth {
+  display: flex;
+  margin-left: auto;
+}
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+.site-nav .link {
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.site-auth .item + .item {
+  margin-left: 50px;
+}
+.site-auth .link {
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.site-nav .link.current {
+  color: #2196f3;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-auth .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.site-auth .link:hover,
+.site-auth .link:focus {
+  color: var(--accent-color);
+}
+.section-hero {
+  text-align: center;
+  background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.button.hero {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: 1px solid var(--accent-color);
+}
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background: #188ce8;
+}
+.title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+.advantages {
+  display: flex;
+}
+.advantages .adv + .adv {
+  margin-left: 30px;
+}
+.adv {
+  width: 270px;
+}
+.section-adv {
+  padding-top: 92.8px;
+  padding-bottom: 92.8px;
+}
+.activity-title {
+  margin: 0;
+  margin-bottom: 50px;
+}
+.activity-img {
+  display: flex;
+  justify-content: space-between;
+}
+.section-title,
+.activity-title,
+.team-title,
+.team-title-name {
+  color: var(--title-text-color);
+}
+.section-title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.14;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.section-text {
+  margin: 0;
+  line-height: 1.71;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  margin: 0;
+  margin-bottom: 50px;
+}
+.team-members {
+  display: flex;
+  justify-content: space-between;
+}
+.section {
+  padding-bottom: 94px;
+}
+.section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.activity-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.team-title-name {
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.profession {
+  margin: 0;
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.member {
+  background-color: #ffffff;
+  border: 1px solid #ececec;
+}
+footer {
+  background-color: #2f303a;
+}
+.footer-site-logo {
+  display: block;
+  margin-bottom: 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
+}
+.adress-link-map {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+.adress-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-text-color);
+}
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--accent-color);
+}
+.adress-link-map:hover,
+.adress-link-map:focus {
+  color: var(--accent-color);
+}
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+/* Портфоліо */
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.filter .btn + .btn {
+  margin-left: 8px;
+}
+.filter-button {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #f5f4fa;
+  padding: 6px 22px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.first {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #f5f4fa;
+  padding: 6px 25px;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--secondary-text-color);
+  background: #2196f3;
+}
+.caption {
+  border: 1px solid #ececec;
+  padding-bottom: 20px;
+}
+.title-portfolio {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  margin-left: 24px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.text-portfolio {
+  margin: 0;
+  margin-left: 24px;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
+}
+.portfolio-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.portfolio-img:last-child (-n+3) {
+  margin-bottom: 0;
+}
+.item-img {
+  margin-bottom: 30px;
+  width: 370px;
+}
