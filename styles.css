@@ -184,9 +184,6 @@ img {
   margin: 0;
   line-height: 1.71;
 }
-.team {
-  background-color: #f5f4fa;
-}
 .team-title {
   margin: 0;
   margin-bottom: 50px;
@@ -199,6 +196,7 @@ img {
   padding-bottom: 94px;
 }
 .section-team {
+  background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
 }
